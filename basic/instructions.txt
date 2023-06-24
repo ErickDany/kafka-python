@@ -1,0 +1,12 @@
+python3 -m venv myvenv
+Open the folder “venv_example” from the VS Code using the File > Open Folder command
+Open the Command Palette (View > Command Palette or (Ctrl+Shift+P)). Then, select the Python: Select Interpreter command and then the environment that we created “myenv“
+
+python -m pip install --upgrade pip
+
+pip freeze > requirements.txt
+
+pip install -r requirements.txt
+
+source myvenv/bin/activate
+rm -rf myvenv
