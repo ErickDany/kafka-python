@@ -1,6 +1,6 @@
 from kafka.admin import KafkaAdminClient, NewTopic
 
-TOPIC_NAME='example_topic2'
+TOPIC_NAME='avro_messages'
 
 admin_client = KafkaAdminClient(
     bootstrap_servers="localhost:9092", 

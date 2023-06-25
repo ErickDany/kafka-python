@@ -1,4 +1,3 @@
-from kafka.admin import KafkaAdminClient, NewTopic
 from kafka import KafkaProducer
 import random
 import string
